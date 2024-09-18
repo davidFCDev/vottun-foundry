@@ -12,8 +12,8 @@ Proyecto que contiene un contrato inteligente de ejemplo (`Bank.sol`) desarrolla
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
-   cd tu_repositorio
+   git clone https://github.com/davidFCDev/vottun-foundry.git
+   cd vottun-foundry
    ```
 
 2. Instala Foundry:
