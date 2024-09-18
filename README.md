@@ -1,66 +1,35 @@
-## Foundry
+# Foundry Project - Bank Contract
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Este proyecto contiene un contrato inteligente de ejemplo (`Bank.sol`) desarrollado con Foundry. El contrato permite que los usuarios depositen y retiren fondos, y consulten su balance.
 
-Foundry consists of:
+## Funcionalidades del Contrato
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- **Depositar fondos**: Los usuarios pueden depositar Ether en el contrato.
+- **Retirar fondos**: Los usuarios pueden retirar su balance disponible.
+- **Consultar balance**: Los usuarios pueden consultar su balance actual.
 
-## Documentation
+## Instalación del Proyecto
 
-https://book.getfoundry.sh/
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tu_usuario/tu_repositorio.git
+   cd tu_repositorio
+   ```
 
-## Usage
+2. Instala Foundry:
+   ```bash
+   curl -L https://foundry.paradigm.xyz | bash
+   foundryup
+   ```
 
-### Build
+3. Instala dependencias:
+   ```bash
+   forge install
+   ```
 
-```shell
-$ forge build
-```
+## Pruebas
 
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+Ejecuta las pruebas para validar el contrato:
+   ```bash
+   forge test
+   ```
