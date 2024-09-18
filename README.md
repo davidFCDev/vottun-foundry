@@ -1,4 +1,4 @@
-# Foundry Project - Bank Contract
+# Vottun Project - Bank Contract
 
 Proyecto que contiene un contrato inteligente de ejemplo (`Bank.sol`) desarrollado con Foundry para Vottun Ecosystem. El contrato permite que los usuarios depositen y retiren fondos, y consulten su balance.
 
